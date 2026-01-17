@@ -2,7 +2,7 @@ name: Padel Automation
 
 on:
   schedule:
-    - cron: '0 8 * * 1' # Ejecuta todos los lunes a las 08:00 AM UTC
+    - cron: '0 8,20 * * *' # Ejecuta todos los lunes a las 08:00 AM UTC
   workflow_dispatch:   # Esto activa un botón para que puedas probarlo YA
 
 jobs:
